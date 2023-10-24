@@ -1,0 +1,26 @@
+.nav__menu {
+  display: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1.5rem;
+  border-bottom: 1px solid #0a0908;
+}
+
+.nav__logo {
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: 100;
+}
+
+.nav__toggle,
+.nav__btns {
+  font-size: 1.6rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+}
